@@ -346,6 +346,21 @@ h6 {
     }
 }
 
+@media (max-width: 360px) {
+    #header img {
+        margin: 0 265px 0 0 !important;
+    }
+    #header .intro {
+        margin-right: 110px;
+    }
+    #header h2 {
+        margin-right: 26px;
+    }
+    #header .social-links {
+        margin-right: 135px;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
