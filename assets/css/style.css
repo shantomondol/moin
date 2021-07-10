@@ -322,6 +322,22 @@ h6 {
 }
 
 @media (max-width: 768px) {
+    #header img {
+        margin: 0 280px 0 0 !important;
+    }
+    #header .intro {
+        margin-bottom: -20px;
+        margin-right: 125px;
+        font-size: 36px;
+    }
+    #header h2 {
+        margin-right: 42px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #header .social-links {
+        margin-right: 150px;
+    }
     #header.header-top {
         height: 60px;
     }
