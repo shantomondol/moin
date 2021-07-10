@@ -125,30 +125,6 @@ h6 {
     background: #18d26e;
 }
 
-@media (max-width: 992px) {
-    #header img {
-        margin: 0 310px 0 0 !important;
-    }
-    #header .intro {
-        margin-bottom: -20px;
-        margin-right: 160px;
-        font-size: 36px;
-    }
-    #header h2 {
-        margin-right: 80px;
-        font-size: 20px;
-        line-height: 30px;
-    }
-    #header .social-links {
-        margin-top: 15px;
-    }
-    #header .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -326,52 +302,6 @@ h6 {
     margin: 0;
 }
 
-@media (max-width: 768px) {
-    #header img {
-        margin: 0 280px 0 0 !important;
-    }
-    #header .hi {
-        margin-right: 273px;
-    }
-    #header .intro {
-        margin-bottom: -20px;
-        margin-right: 125px;
-        font-size: 36px;
-    }
-    #header h2 {
-        margin-right: 42px;
-        font-size: 20px;
-        line-height: 30px;
-    }
-    #header .social-links {
-        margin-right: 150px;
-    }
-    #header.header-top {
-        height: 60px;
-    }
-    #header.header-top h1 {
-        font-size: 26px;
-    }
-}
-
-@media (max-width: 360px) {
-    #header img {
-        margin: 0 265px 0 0 !important;
-    }
-    #header .hi {
-        margin-right: 257px;
-    }
-    #header .intro {
-        margin-right: 110px;
-    }
-    #header h2 {
-        margin-right: 26px;
-    }
-    #header .social-links {
-        margin-right: 135px;
-    }
-}
-
 
 /*--------------------------------------------------------------
 # Sections General
@@ -398,15 +328,6 @@ section.section-show {
 section .container {
     background: rgba(0, 0, 0, 0.9);
     padding: 30px;
-}
-
-@media (max-width: 768px) {
-    section {
-        top: 120px;
-    }
-    section.section-show {
-        top: 80px;
-    }
 }
 
 .section-title h2 {
@@ -653,12 +574,6 @@ section .container {
 
 .testimonials .owl-dot.active {
     background-color: #18d26e !important;
-}
-
-@media (max-width: 767px) {
-    .testimonials {
-        margin: 30px 10px;
-    }
 }
 
 
@@ -1223,14 +1138,6 @@ button:hover span:nth-child(4) {
     font-size: 13px;
     color: #fff;
     z-index: 999999;
-}
-
-@media (max-width: 992px) {
-    .credits {
-        text-align: center;
-        padding: 10px;
-        background: rgba(0, 0, 0, 0.8);
-    }
 }
 
 .credits a {
